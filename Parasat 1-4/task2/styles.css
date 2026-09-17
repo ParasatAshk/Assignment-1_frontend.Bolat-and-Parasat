@@ -12,3 +12,19 @@ body {
     margin: 0 auto;
     padding: 25px;
 }
+
+.header {
+    background: linear-gradient(135deg, #6b5b95, #8878b8);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(107, 91, 149, 0.2);
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
