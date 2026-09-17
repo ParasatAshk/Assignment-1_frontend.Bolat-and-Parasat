@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f4f8; /* Мягкий светло-синий фон */
+    font-family: 'Source Sans 3', sans-serif;
+    color: #1e293b;
+    line-height: 1.5;
+    padding: 20px;
+}
