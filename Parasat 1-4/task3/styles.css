@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #112250 0%, #3B507D 100%);
+    font-family: 'Source Sans 3', sans-serif;
+    color: #112250;
+    line-height: 1.6;
+    padding: 40px 15px;
+    min-height: 100vh;
+}
+
