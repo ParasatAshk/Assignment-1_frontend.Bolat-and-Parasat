@@ -13,3 +13,14 @@ body {
     min-height: 100vh;
 }
 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(245, 244, 240, 0.92);
+    backdrop-filter: blur(8px); 
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(231, 226, 206, 0.5);
+}
+
