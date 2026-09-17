@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #f0f4f8; /* Мягкий светло-синий фон */
+    background-color: #f0f4f8; 
     font-family: 'Source Sans 3', sans-serif;
     color: #1e293b;
     line-height: 1.5;
     padding: 20px;
 }
+
