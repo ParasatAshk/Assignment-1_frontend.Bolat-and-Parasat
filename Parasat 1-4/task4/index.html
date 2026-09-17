@@ -56,6 +56,46 @@
             </table>
         </section>
 
+        <section class="section-box">
+            <h2>Feedback Form</h2>
+            <form class="feedback-form">
+                
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Your Role:</label>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Do you like this website?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="like" value="yes" checked> Yes</label>
+                        <label><input type="radio" name="like" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Feedback</button>
+            </form>
+        </section>
+
 
 </body>
 </html>
