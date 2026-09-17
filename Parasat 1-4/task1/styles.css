@@ -1,0 +1,161 @@
+/* ==========================================
+   1. БАЗОВЫЕ НАСТРОЙКИ (Element selectors)
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcf9f5; /* Теплый светлый бумажный фон */
+    color: #3b2f2f;            /* Глубокий мягкий коричневый цвет текста */
+    font-family: 'Georgia', 'Times New Roman', serif; /* Книжно-журнальный шрифт */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.7;
+}
+
+/* ==========================================
+   2. УНИКАЛЬНЫЙ ID СЕЛЕКТОР (Заголовок)
+   ========================================== */
+#main-title {
+    color: #7d1c24;            /* Насыщенный бордовый цвет */
+    font-size: 2.3rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #8c6d6b;            /* Приглушенный коричнево-розовый оттенок */
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #7d1c24;            /* Бордовый */
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   3. КЛАСС-СЕЛЕКТОРЫ (Class selectors)
+   ========================================== */
+
+/* Навбар */
+.navbar {
+    background-color: #f0e6df;  /* Коричневато-пастельный фон */
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #7d1c24;             /* Бордовые ссылки */
+    background-color: #ffffff;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a:hover {
+    background-color: #7d1c24;
+    color: #ffffff;
+}
+
+/* Главная фотка слева, заголовки обтекают ее справа */
+.main-photo {
+    float: left;
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 20px rgba(125, 28, 36, 0.15); /* Легкая бордовая тень */
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+/* Абзацы с твоими любимыми пастельными фонами */
+p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    padding: 15px 18px;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/* Чередуем фон абзацев: пастельно-голубой и розовый */
+p:nth-of-type(odd) {
+    background-color: #e3edf5; /* Пастельно-голубой */
+}
+
+p:nth-of-type(even) {
+    background-color: #fce8ec; /* Нежно-розовый */
+}
+
+/* Списки */
+.styled-list {
+    background-color: #f0e6df;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin: 20px 0;
+    list-style-position: inside;
+}
+
+.styled-list li {
+    margin-bottom: 6px;
+    font-size: 1.05rem;
+}
+
+/* Галерея маленьких картинок (в ряд через inline-block) */
+.gallery-container, div {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.collage-img {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 6px;
+}
+
+/* Иконки соцсетей */
+.social-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* Обычные ссылки */
+a {
+    color: #7d1c24;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Разделительные линии */
+.custom-line {
+    border: none;
+    height: 2px;
+    background-color: #e0d0c6;
+    margin: 30px 0;
+    clear: both; /* Очищает float, чтобы линии не ломались */
+}
