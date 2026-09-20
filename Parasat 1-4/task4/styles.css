@@ -68,3 +68,45 @@ body {
     padding-bottom: 5px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: center; /* Центрирование текста внутри ячеек */
+}
+
+th, td {
+    border: 1px solid #cbd5e1; /* Границы для всех ячеек */
+    padding: 12px;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #1e3a8a; /* Цвет фона шапки таблицы */
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.highlight-row {
+    background-color: #dbeafe !important;
+    font-weight: 600;
+}
+
+.feedback-form {
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
